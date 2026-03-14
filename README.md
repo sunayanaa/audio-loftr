@@ -228,19 +228,6 @@ Frame durations used for MAE conversion are:
 
 ---
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{sankaran2026audioloftr,
-  title   = {Robust Audio Alignment via Audio {LoFTR}},
-  author  = {Sankaran, Sridharan},
-  journal = {Signal Processing},
-  year    = {2026},
-  publisher = {Elsevier}
-}
-```
 
 ---
 
