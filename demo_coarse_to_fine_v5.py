@@ -34,7 +34,7 @@ except ImportError:
     pass
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-DRIVE_BASE    = "/content/drive/MyDrive/GTZAN"
+DRIVE_BASE    = "/content/drive/MyDrive/audio-loftr"
 DRIVE_DATA    = os.path.join(DRIVE_BASE, "jazz")
 DRIVE_CKPT    = os.path.join(DRIVE_BASE, "model_ctf_v5.pth")
 DRIVE_SPLIT   = os.path.join(DRIVE_BASE, "ctf_v5_split.json")
