@@ -1,7 +1,6 @@
-# Robust Audio Alignment via Audio LoFTR
+# Frequency-Pooled Rotary Transformers for Distortion-Invariant Audio Alignment
 
-Code accompanying the paper submitted to Elsevier Signal Processing.
-
+Code accompanying the paper submitted to Elsevier Digital Signal Processing: A Review Journal.
 ---
 
 ## Overview
@@ -210,7 +209,7 @@ Requires: `model_ctf_v5.pth` and `ctf_v5_split.json` from Step 1.
 
 Compares CQT-chroma fine alignment against mel-spectrogram fine
 alignment under pitch shift. This experiment supports the discussion
-in Section 6.1: chroma features do not improve the fine stage on
+in the Limitations section: chroma features do not improve the fine stage on
 polyphonic jazz because chroma vectors lack local discriminative
 power in dense harmonic textures. Results cached to
 `ctf_pitch_v2_results.json`, figure to `ctf_pitch_v2_figure.png`.
